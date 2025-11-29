@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Story Script", cursive;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+p {
+    font-weight: 300;
+    color: #111;
+}
+
+header {
+    background-color:#7a80c4;
+    color: white;
+}
+header .home a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+header .home a i {
+    justify-content: center;
+}
+
+header .events h1 {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 2em;
+}
+
+.programs{
+    background: #f5f5f5;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.programs .program{
+    width: 300px;
+    padding: 15px;
+    margin: 30px;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 25px lightgray;
+}
+
+.program h2{
+    font-size: 1.2em;
+}
+
+.program img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px solid #ccc;
+}
+
+.programs-list{
+    display:grid;
+
+}
+
+.programs-list h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    background-color: rgb(157, 230, 205);
+
+}
+
+.programs-list h3{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgb(157, 230, 205);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+table{
+    outline: auto;
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+
+
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.upcoming{
+    margin-top: 40px;
+}
+
+.upcoming h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    background-color: rgb(157, 230, 205);
+
+}
+
+.upcoming h3{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(157, 230, 205);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.upcoming ul li{
+    font-size: 1.5em;
+    padding:10px;
+}
+
+
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #111;
+}
+
+.footer .icons{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .icons a{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.footer p{
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px){
+    .programs{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        table-layout:fixed;
+        width: 700px;
+    }
+
+    table tr td{
+        font-size: 15px;
+    }
+
+    .lst2{
+        font-size: 0.8em;
+    }
+
+}
